@@ -1,0 +1,66 @@
+
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 1s;
+  position: relative;
+  
+}
+
+.hero:hover {
+    transition: 1s;
+ 
+}
+
+.hero-content {
+  text-align: center;
+  color: rgb(69,71,66);
+  text-shadow: 1px 1px #000;
+  padding-left: 5px;
+  text-decoration: solid;
+  background: rgba(201,205,194,0.50) ;
+  
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: orange;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.hero1 {
+  background-image: url("Pictures/Divcibare.png");
+  margin-left: 15px;
+  
+}
+
+.hero2 {
+  background-image: url("Pictures/Sneg.png");
+  margin-left: 15px;
+}
+
+.hero3 {
+  background-image: url("Pictures/Kvad2.png");
+  margin-left: 15px;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+  .hero-bg1,
+  .hero-bg2,
+  .hero-bg3 {
+    height: 50vh;
+    
+  }
+}
